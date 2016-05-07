@@ -6,6 +6,8 @@
 5)	DirCommand class
 6)	CdCommand class
 7)	TreeCommand class
+8)	ExitCommand class
+9)	NotEnoughParametersException class
 
 
 # DONE
