@@ -10,5 +10,5 @@ package myshell;
  * @author Branimir
  */
 interface Command {
-    public void execute(Shell shell, String[] args);
+    public void execute(Shell shell, String[] params) throws NotEnoughParametersException;
 }
