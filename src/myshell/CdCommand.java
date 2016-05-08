@@ -39,7 +39,7 @@ class CdCommand implements Command {
                     shell.setCurrentWorkingDirectory(file.getAbsolutePath());
                 }
                 else {
-                    System.out.println("Directorys \"" + params[1] + "\" not found.");
+                    System.out.println("Directory \"" + params[1] + "\" not found.");
                 }
         } 
     }
