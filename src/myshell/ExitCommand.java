@@ -16,6 +16,10 @@ class ExitCommand implements Command {
 
     @Override
     public void execute(Shell shell, String[] params) throws NotEnoughParametersException {
+        if(params.length < 1) {
+            throw new NotEnoughParametersException("Usage:\nexit");
+        } 
+        
         shell.setWorking(false);
     }
     
